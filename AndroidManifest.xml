@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crunchthat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.crunchthat.CrunchActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.FoodMenuActivity"
+            android:label="@string/title_activity_food_menu" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.IndianFoodActivity"
+            android:label="@string/title_activity_indian_food" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.ChineseActivity"
+            android:label="@string/title_activity_chinese" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.ItalianActivity"
+            android:label="@string/title_activity_italian" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.CokeActivity"
+            android:label="@string/title_activity_coke" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.IndianVegActivity"
+            android:label="@string/title_activity_indian_veg" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.IndianNonVegActivity"
+            android:label="@string/title_activity_indian_non_veg" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.ChineseVegActivity"
+            android:label="@string/title_activity_chinese_veg" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.ChineseNonVegActivity"
+            android:label="@string/title_activity_chinese_non_veg" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.crunchthat.PaymentActivity"
+            android:label="@string/title_activity_payment" >
+        </activity>
+    </application>
+
+</manifest>
